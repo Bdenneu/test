@@ -1,1 +1,1 @@
-<?php echo "test";?>
+<script>alert('XSS');</script>
