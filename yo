@@ -1,4 +1,4 @@
-script>
+<script>
 function setCookie(){
     var cookieString = "GOSESSION=guest-go1.11.5=";
     document.cookie = cookieString;
